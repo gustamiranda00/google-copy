@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisa Avançada - Google Copy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Pesquisa Google</a>
+    </nav>
+  </header>
+
+  <main class="advanced">
+    <h2>Pesquisa Avançada</h2>
+    <form action="https://www.google.com/search" method="get">
+      <label for="all">Todas estas palavras:</label>
+      <input id="all" type="text" name="as_q">
+
+      <label for="ex">Esta frase exata:</label>
+      <input id="ex" type="text" name="as_epq">
+
+      <label for="any">Qualquer destas palavras:</label>
+      <input id="any" type="text" name="as_oq">
+
+      <label for="none">Nenhuma destas palavras:</label>
+      <input id="none" type="text" name="as_eq">
+      <input type="submit" value="Pesquisa Avançada" class="btn-advanced">
+    </form>
+  </main>
+</body>
+</html>
